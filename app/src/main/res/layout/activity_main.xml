@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/butt1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Simple" />
+
+            <Button
+                android:id="@+id/butt2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Simple Singleton" />
+
+
+            <Button
+                android:id="@+id/butt3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Double Singleton" />
+
+            <Button
+                android:id="@+id/butt4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Provide" />
+
+            <Button
+                android:id="@+id/butt5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Inject Filed" />
+
+            <Button
+                android:id="@+id/butt6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Intomap" />
+
+            <Button
+                android:id="@+id/butt7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Named" />
+
+            <Button
+                android:id="@+id/butt8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto SubComponent" />
+
+            <Button
+                android:id="@+id/butt9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Goto Sub 2 Component" />
+
+            <Button
+                android:id="@+id/butt10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bindings Component" />
+
+            <Button
+                android:id="@+id/butt11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bindings 2 Component" />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
