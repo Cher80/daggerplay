@@ -5,8 +5,6 @@ import android.util.Log;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 
-import ru.detmir.arch4.BuildConfig;
-
 
 public class L {
 

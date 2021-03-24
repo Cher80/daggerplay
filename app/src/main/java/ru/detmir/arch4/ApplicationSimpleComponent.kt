@@ -2,7 +2,6 @@ package ru.detmir.arch4
 
 import dagger.Component
 import ru.detmir.arch4.repos.simple.UserRepo
-import javax.inject.Singleton
 
 @Component()
 interface ApplicationSimpleComponent {

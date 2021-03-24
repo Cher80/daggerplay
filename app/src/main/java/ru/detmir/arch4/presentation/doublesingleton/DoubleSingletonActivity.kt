@@ -11,7 +11,7 @@ class DoubleSingletonActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.double_singleton_activity)
         val catRepo = App.applicationDoubleSingletonComponent.giveMeCatRepo()
-        catRepo.getUser(1)
-        catRepo.getUser(2)
+        catRepo.give(1)
+        catRepo.give(2)
     }
 }

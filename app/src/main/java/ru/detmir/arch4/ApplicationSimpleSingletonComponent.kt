@@ -1,7 +1,6 @@
 package ru.detmir.arch4
 
 import dagger.Component
-import ru.detmir.arch4.repos.simple.UserRepo
 import ru.detmir.arch4.repos.simplesingleton.GoodsRepo
 import javax.inject.Singleton
 

@@ -5,7 +5,6 @@ import ru.detmir.arch4.repos.provide.MapsDataModule
 import ru.detmir.arch4.repos.provide.PosDataModule
 import ru.detmir.arch4.repos.provide.Root
 import ru.detmir.arch4.repos.provide.SmsDataModule
-import ru.detmir.arch4.repos.simple.UserRepo
 import javax.inject.Singleton
 
 @Singleton

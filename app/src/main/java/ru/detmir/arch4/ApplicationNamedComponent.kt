@@ -1,9 +1,7 @@
 package ru.detmir.arch4
 
 import dagger.Component
-import ru.detmir.arch4.presentation.intomap.IntomapActivity
 import ru.detmir.arch4.presentation.named.NamedActivity
-import ru.detmir.arch4.repos.intomap.*
 import ru.detmir.arch4.repos.named.CatModule
 import javax.inject.Singleton
 

@@ -2,8 +2,8 @@ package ru.detmir.arch4
 
 import android.content.Intent
 import android.os.Bundle
-import androidx.appcompat.app.AppCompatActivity
 import android.widget.Button
+import androidx.appcompat.app.AppCompatActivity
 import ru.detmir.arch4.presentation.binding.LoginActivity
 import ru.detmir.arch4.presentation.binding2.TheLoginActivity
 import ru.detmir.arch4.presentation.doublesingleton.DoubleSingletonActivity
@@ -12,7 +12,7 @@ import ru.detmir.arch4.presentation.intomap.IntomapActivity
 import ru.detmir.arch4.presentation.named.NamedActivity
 import ru.detmir.arch4.presentation.provide.ProvideActivity
 import ru.detmir.arch4.presentation.simple.SimpleActivity
-import ru.detmir.arch4.presentation.singleton.SimpleSingletonActivity
+import ru.detmir.arch4.presentation.simplesingleton.SimpleSingletonActivity
 import ru.detmir.arch4.presentation.sub2component.Sub2ComponentActivity
 import ru.detmir.arch4.presentation.subcomponent.SubComponentActivity
 

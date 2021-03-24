@@ -1,7 +1,6 @@
 package ru.detmir.arch4
 
 import dagger.Component
-import ru.detmir.arch4.presentation.sub2component.Sub2ComponentActivity
 import ru.detmir.arch4.repos.sub2component.NdaActivitySubcomponent
 import ru.detmir.arch4.repos.sub2component.NdaParentModule
 import ru.detmir.arch4.repos.sub2component.ZContextModule

@@ -12,7 +12,7 @@ class GoodsRepo @Inject constructor(
         L.d("ooo")
     }
 
-    fun getUser(id: Int): String {
+    fun give(id: Int): String {
         L.d("ooo id=$id")
         goodsRepoLocal.getGoodsRepoLocal()
         goodsRepoNetwork.getGoodsRepoNetwork()
